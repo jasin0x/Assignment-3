@@ -1,0 +1,10 @@
+.caption {
+    position: absolute;
+    top: 45%;
+    left: 0;
+    width: 100%;
+}
+
+.custom-btn{
+    width: 110px;
+}
