@@ -45,11 +45,30 @@
                 <a class="nav-link active" aria-current="page" href="#">Contact Us</a>
               </li>
             </ul>
-            <button class="btn btn-warning " type="submit">Free Consultation </button>
+            <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#exampleModal">Free Consultation </button>
           </div>
         </div>
       </nav>
     </section>
+    
+<!-- Modal -->
+    <div class="modal" id="exampleModal" tabindex="-1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">Modal title</h5>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body">
+            <p>Modal body text goes here.</p>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="button" class="btn btn-primary">Save changes</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <!-- Banner -->
     <section>
@@ -319,7 +338,7 @@
         </div>
         <div class="col-md-2 col-lg-2 col-xl-2  mt-3">
           <h5 class="mb-4 font-weight-bold text-white fnt-basic"> Usefull Link</h5>
-          <div class="font-weight d-flex">
+          <div class="font-weight d-flex ">
             <ul style="list-style: none;">
               <li>Home</li>
               <li>About Us</li>
